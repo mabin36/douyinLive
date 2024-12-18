@@ -28,7 +28,7 @@ func main() {
 	var port string
 	var room string
 	pflag.StringVar(&port, "port", "18080", "WebSocket 服务端口")
-	pflag.StringVar(&room, "room", "****", "抖音直播房间号")
+	pflag.StringVar(&room, "room", "71564838536", "抖音直播房间号")
 	pflag.BoolVar(&unknown, "unknown", false, "是否输出未知源的pb消息")
 	pflag.Parse()
 
